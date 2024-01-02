@@ -1,0 +1,24 @@
+
+ 	 Computing pi in serial: 
+
+	 For 10000000 trials, pi = 3.141770
+
+7.08 s ± 110 ms per loop (mean ± std. dev. of 3 runs, 1 loop each)
+
+ 	 Computing pi in serial with numpy w/o arrays: 
+
+	 For 10000000 trials, pi = 3.141956
+
+13 s ± 277 ms per loop (mean ± std. dev. of 3 runs, 1 loop each)
+
+ 	 Computing pi in serial with numpy w/ arrays: 
+
+	 For 10000000 trials, pi = 3.141549
+
+250 ms ± 3.47 ms per loop (mean ± std. dev. of 3 runs, 1 loop each)
+
+ 	 Computing pi with numba: 
+
+	 For 10000000 trials, pi = 3.141687
+
+106 ms ± 1.98 ms per loop (mean ± std. dev. of 3 runs, 10 loops each)
